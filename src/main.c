@@ -9,6 +9,11 @@ long abs(long a){
 return   (a > 0) ? a : -a; 
 }
 
+double div(double a , double b)
+{
+   return a / b ;
+}
+
 int main(){
 
 printf("Hellow World!"); 
