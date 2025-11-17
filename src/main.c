@@ -1,18 +1,17 @@
 #include <stdio.h>
 
 double add(double a , double b)
-
-
-
-
-
-sssssssssssss
 {
    return a + b ;
 } 
 
 long abs(long a){
 return   (a > 0) ? a : -a; 
+}
+
+double div(double a , double b)
+{
+   return a / b ;
 }
 
 int main(){
